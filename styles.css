@@ -28,18 +28,24 @@ nav ul li a {
     z-index: 1;
 }
 
-a {
+.nav-link, .date {
     color: gray;
     text-decoration: none;
 }
 
-a:hover {
+a.date:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.nav-link:hover {
     color: black;
     border: 10px solid #ea7ee3;
 }
 
 .nav-link,
-.date, #bottomList {
+.date,
+#bottomList {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -54,11 +60,11 @@ body {
 
 .funParagraph {
     color: green;
-    font-family: "Caveat", cursive;
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: bold;
-    font-size: 1.25rem;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.15rem;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -92,16 +98,30 @@ section {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 
 .subHeading2 {
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     padding: auto;
+}
+
+.hoverImage {
+    height: 630px;
+    width: 630px;
+    max-width: 50%;
+    padding: auto;
+    margin: auto;
+    background: no-repeat center/contain url("https://github.com/rachelal1en/Images/blob/main/thirdeye.PNG?raw=true");
+    display: inline-block;
+} 
+
+.hoverImage:hover {
+    background: no-repeat center/contain url("https://github.com/rachelal1en/Images/blob/main/IMG_3148(1).JPG?raw=true");
 }
 
 aside {
@@ -127,4 +147,5 @@ footer {
     list-style-type: '🎶';
     text-align: center;
     list-style-position: inside;
+    font-size: 1.25rem;
 }
