@@ -1,1 +1,130 @@
-/* Write your CSS here! */
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3px 0;
+    background-color: rgba(253, 248, 248, 0.3);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+    position: relative;
+    z-index: 1;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    border: 10px solid #ea7ee3;
+}
+
+.nav-link,
+.date, #bottomList {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    text-align: center;
+    margin: 8px;
+    display: block;
+    background-image: radial-gradient(rgb(224, 168, 168), rgb(252, 165, 248), rgb(191, 180, 187));
+}
+
+.funParagraph {
+    color: green;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 1.25rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.funParagraph:hover {
+    color: darkmagenta;
+}
+
+#mainHeading {
+    color: red;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+#mainHeading:hover {
+    color: pink;
+}
+
+section {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    padding: 1em;
+}
+
+.subHeading {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.subHeading2 {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding: auto;
+}
+
+aside {
+    background-color: rgba(253, 248, 248, 0.3);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside:hover {
+    background-color: #ea7ee3;
+}
+
+footer {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 8px;
+    padding: 2em;
+}
+
+#bottomList {
+    list-style-type: '🎶';
+    text-align: center;
+    list-style-position: inside;
+}
